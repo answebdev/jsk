@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Navigation from './components/layout/Navigation';
+// import Navigation from './components/layout/Navigation';
+import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
@@ -14,7 +15,8 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      <Navigation />
+      {/* <Navigation /> */}
+      <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/about' element={<About />} />

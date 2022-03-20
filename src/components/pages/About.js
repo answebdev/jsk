@@ -21,7 +21,7 @@ const About = () => {
         <Row>
           <Col md={5}>
             <p className={classes.SubTitle}>Seoul, Korea</p>
-            <p>
+            <p className={classes.MainText}>
               Jisun Kim is a model who dolor sit amet, consectetur adipiscing
               elit, sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

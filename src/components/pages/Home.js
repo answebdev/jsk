@@ -10,7 +10,7 @@ const Home = () => {
       <Helmet>
         <title>Jisun Kim</title>
         <style type='text/css'>{`        
-        .navbar{
+        .navbar {
           display: none;
         }
     `}</style>
