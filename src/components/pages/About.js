@@ -19,7 +19,8 @@ const About = () => {
         </Row>
 
         <Row>
-          <Col md={5}>
+          {/* <Col  md={5}> */}
+          <Col lg={5} md={12}>
             <p className={classes.SubTitle}>Seoul, Korea</p>
             <p className={classes.MainText}>
               Jisun Kim is a model who dolor sit amet, consectetur adipiscing
@@ -33,9 +34,11 @@ const About = () => {
             </p>
           </Col>
 
-          <Col md={1}></Col>
+          {/* <Col md={1}></Col> */}
+          <Col lg={1} md={12}></Col>
 
-          <Col md={6}>
+          {/* <Col md={6}> */}
+          <Col lg={6} md={12}>
             <Image className={classes.MainImage} src={hk} fluid />
           </Col>
         </Row>
