@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import classes from '../../styles/Home.module.css';
-// import jisun from '../../img/jisun-rome.png';
 
 // Adapted from: https://codepen.io/akash-1618/pen/rNwxOWX
 
@@ -16,10 +15,8 @@ const Home = () => {
         }
     `}</style>
       </Helmet>
-
       <div className={classes.Landing}>
         <div className={classes.Bg}></div>
-
         <div className={`${classes.Container} ${classes.LandingFlex}`}>
           <h1 className={classes.Title}>Jisun Kim</h1>
           <div className={classes.Description}>Model | Traveler</div>
@@ -27,7 +24,6 @@ const Home = () => {
             <Link className={classes.Button} to='/about'>
               Details
             </Link>
-
             <Link className={classes.Button} to='/contact'>
               Get in Touch
             </Link>
