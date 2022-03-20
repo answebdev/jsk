@@ -6,6 +6,11 @@ import Contact from './components/pages/Contact';
 import Error from './components/pages/Error';
 import './App.css';
 
+// Examples:
+// https://www.format.com/magazine/galleries/photography/model-portfolio-website-examples
+// https://www.wix.com/blog/2018/07/model-portfolio-examples/
+// https://dribbble.com/tags/model_portfolio
+
 function App() {
   return (
     <div className='App'>

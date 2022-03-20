@@ -22,7 +22,7 @@ const Home = () => {
           <div className={classes.Description}>Model | Traveler</div>
           <div className={classes.ButtonContainer}>
             <Link className={classes.Button} to='/about'>
-              Details
+              Explore
             </Link>
             <Link className={classes.Button} to='/contact'>
               Get in Touch
