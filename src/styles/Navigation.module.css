@@ -4,7 +4,8 @@
 
 .Nav {
   color: #fff !important;
-  font-family: 'PT Serif', serif;
+  /* font-family: 'PT Serif', serif; */
+  font-family: 'PT Sans', sans-serif;
   font-size: 24px;
   letter-spacing: 2.5px;
 }

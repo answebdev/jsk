@@ -15,14 +15,19 @@ const Navigation = () => {
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className='justify-content-end'>
-            <Nav.Link href='/home'>
+            <Nav.Link>
               <Link className={classes.Link} to='/'>
                 Home
               </Link>
             </Nav.Link>
-            <Nav.Link href='/about'>
+            <Nav.Link>
               <Link className={classes.Link} to='/about'>
                 About
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link className={classes.Link} to='/contact'>
+                Contact
               </Link>
             </Nav.Link>
           </Navbar.Collapse>
