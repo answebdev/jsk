@@ -6,7 +6,7 @@ import classes from '../../styles/Navigation.module.css';
 const Navigation = () => {
   return (
     <div>
-      <Navbar bg='dark' variant='dark'>
+      <Navbar className={classes.NavBar} bg='dark' variant='dark'>
         <Container>
           <Navbar.Brand className={classes.Nav}>
             <Link className={classes.Link} to='/'>
