@@ -46,11 +46,13 @@
 }
 
 .Title {
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .Description {
   font-size: 1.2rem;
+  letter-spacing: 1.5px;
   width: 50%;
   margin-bottom: 1em;
 }
@@ -67,6 +69,7 @@
   font-size: 1.2rem;
   text-align: center;
   border-radius: 0.4em; */
+  letter-spacing: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,9 +104,18 @@
     width: 100%;
     text-align: center;
   }
+
   .LandingFlex {
     display: flex;
     align-items: center;
+  }
+
+  .Title {
+    font-size: 2.5rem;
+  }
+
+  .Description {
+    font-size: 1.2rem;
   }
 }
 
@@ -125,9 +137,8 @@
     } */
 }
 
-/* @media (max-width: 300px) {
-    .feature-card {
-      width: 10rem;
-    }
+@media (max-width: 300px) {
+  .Title {
+    font-size: 48px;
   }
-   */
+}
