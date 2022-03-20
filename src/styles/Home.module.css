@@ -92,7 +92,7 @@
 
   background-color: #ffffff;
   transition-duration: 0.5s;
-  color: #4b4134;
+  color: var(--primaryDark);
   border-color: #ffffff;
   outline: none;
 }

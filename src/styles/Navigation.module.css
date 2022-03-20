@@ -1,5 +1,5 @@
 .NavBar {
-  background-color: #4b4134;
+  background-color: var(--primaryDark);
 }
 
 .Nav {
