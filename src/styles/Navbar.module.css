@@ -16,6 +16,7 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-weight: 300;
+  padding: 0 20px;
 }
 
 .Navbar ul {
@@ -51,7 +52,7 @@
 
 ul {
   margin: 0;
-  padding: 10px 16px;
+  padding: 16px 16px;
 }
 
 /* ===== MEDIA QUERIES ===== */

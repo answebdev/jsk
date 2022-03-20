@@ -6,6 +6,10 @@ const Contact = () => {
       <Helmet>
         <title>Jisun Kim | Contact</title>
       </Helmet>
+      <br />
+      <br />
+      <br />
+      <br />
       <h3>Contact Page</h3>
     </div>
   );
