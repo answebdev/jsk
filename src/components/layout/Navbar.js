@@ -6,7 +6,6 @@ const Navbar = () => (
     <header className={classes.Navbar}>
       <div className={`${classes.NavbarTitle} ${classes.NavbarItem}`}>
         <div>
-          {/* <span>Jisun Kim</span> */}
           <Link className={classes.BrandLink} to='/'>
             Jisun Kim
           </Link>
