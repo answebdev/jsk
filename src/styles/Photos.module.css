@@ -5,6 +5,11 @@
 .LeadTitle {
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  font-family: var(--primaryFontFamily);
+}
+
+.MainText {
+  line-height: 1.6;
 }
 /* ===== MEDIA QUERIES ===== */
 

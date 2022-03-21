@@ -2,6 +2,96 @@ import { Helmet } from 'react-helmet';
 import { Row, Col } from 'react-bootstrap';
 import classes from '../../styles/Photos.module.css';
 
+import jisun from '../../img/jisun.jpg';
+import jisun2 from '../../img/jisun2.jpg';
+import lamarina from '../../img/lamarina.jpg';
+import rome from '../../img/jisun-rome.jpg';
+import capetown from '../../img/capetown.jpg';
+import admiraltycentre from '../../img/admiralty-centre.jpg';
+import hat from '../../img/hat.jpg';
+import nuremberg from '../../img/nuremberg.jpg';
+
+import thumbnail from '../../img/thumbnail.png';
+import thumbnail2 from '../../img/thumbnail2.png';
+import lamarinaThumb from '../../img/lamarina-thumb.png';
+import romethumb from '../../img/romethumb.png';
+import capetownthumb from '../../img/capetownthumb.png';
+import admiraltythumb from '../../img/admiraltythumb.png';
+import hatthumb from '../../img/hatthumb.png';
+import nurembergthumb from '../../img/nurembergthumb.png';
+
+import Gallery from 'react-grid-gallery';
+
+// Gallery components:
+// https://www.npmjs.com/package/react-photo-gallery
+// https://github.com/neptunian/react-photo-gallery
+// https://benhowell.github.io/react-grid-gallery/
+// https://github.com/benhowell/react-grid-gallery
+// Formerly Fancybox: https://fancyapps.com/docs/ui/fancybox/
+
+// THIS ONE IS USED HERE: https://benhowell.github.io/react-grid-gallery/
+
+const IMAGES = [
+  {
+    src: jisun,
+    thumbnail: thumbnail,
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: 'Soho, Central Hong Kong',
+  },
+  {
+    src: jisun2,
+    thumbnail: thumbnail2,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: 'Hong Kong',
+  },
+
+  {
+    src: lamarina,
+    thumbnail: lamarinaThumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: 'Central, Hong Kong',
+  },
+  {
+    src: rome,
+    thumbnail: romethumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: 'Rome, Italy',
+  },
+  {
+    src: capetown,
+    thumbnail: capetownthumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: 'Cape Town, South Africa',
+  },
+
+  {
+    src: admiraltycentre,
+    thumbnail: admiraltythumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: 'Admiralty Centre, Hong Kong',
+  },
+  {
+    src: hat,
+    thumbnail: hatthumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: 'Hokkaido, Japan',
+  },
+  {
+    src: nuremberg,
+    thumbnail: nurembergthumb,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: 'Traveling to Nuremberg.',
+  },
+];
+
 const Photos = () => {
   return (
     <div>
@@ -14,6 +104,22 @@ const Photos = () => {
             <h1 className={classes.LeadTitle}>
               <strong>Photos</strong>
             </h1>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12}>
+            <p className={classes.MainText}>
+              Bacon ipsum dolor amet beef ham hock corned beef, shank strip
+              steak hamburger jowl alcatra picanha biltong doner ribeye
+              capicola.
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12}>
+            <Gallery images={IMAGES} />
           </Col>
         </Row>
       </div>

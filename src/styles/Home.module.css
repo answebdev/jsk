@@ -49,6 +49,7 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: var(--primaryFontFamily);
 }
 
 .Description {
@@ -56,6 +57,8 @@
   letter-spacing: 1.5px;
   width: 50%;
   margin-bottom: 1em;
+  /* text-transform: uppercase; */
+  font-family: var(--primaryFontFamily);
 }
 
 .ButtonContainer {

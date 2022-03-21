@@ -46,6 +46,8 @@
   color: var(--primaryDark);
   text-decoration: none;
   text-transform: uppercase;
+
+  font-family: var(--primaryFontFamily);
 }
 
 .BrandLink:hover {
@@ -61,13 +63,18 @@
   color: var(--primaryDark);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 12.5px;
   letter-spacing: 1px;
+
+  font-family: var(--primaryFontFamily);
 }
 
 .NavLink:hover {
   color: var(--primaryDark);
   border-top: 2px solid var(--secondaryDark);
+
+  padding-top: 4px;
 }
 
 .SocialIcons {
