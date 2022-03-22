@@ -33,7 +33,6 @@ const Contact = () => {
                 action='/success'
                 name='jisun-portfolio-contact-form'
                 method='POST'
-                data-netlify-recaptcha='true'
                 data-netlify='true'
               >
                 <input
@@ -74,7 +73,6 @@ const Contact = () => {
                 <div className='field'>
                   <div data-netlify-recaptcha='true'></div>
                 </div>
-                <div data-netlify-recaptcha='true'></div>
                 <Button
                   className='actions'
                   variant='success'
