@@ -26,9 +26,13 @@ const Contact = () => {
             <hr />
             <div className='content'>
               <p>
-                For ideas or suggestions on how the site can be improved, or if
-                you spot a bug or an error, feel free to send a message here.
+                Jisun Kim is available for shoots. Contact about bookings or
+                just to drop a friendly line.
               </p>
+              {/* <p>
+                Use the form or contact me by mail at{' '}
+                <a href='mailto:adolf.schmuck@gmail.com'>example@gmail.com</a>
+              </p> */}
               <Form
                 action='/success'
                 name='jisun-portfolio-contact-form'
