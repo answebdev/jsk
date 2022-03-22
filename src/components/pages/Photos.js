@@ -29,6 +29,8 @@ import h6 from '../../img/h6.png';
 import h7 from '../../img/h7.png';
 import h8 from '../../img/h8.png';
 
+import love from '../../img/love.jpg';
+
 import Gallery from 'react-grid-gallery';
 
 // Gallery components:
@@ -176,6 +178,106 @@ const Photos = () => {
         <Row>
           <Col md={12}>
             <Gallery images={IMAGES} />
+          </Col>
+        </Row>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        {/* Option 3 Source: https://mdbootstrap.com/docs/standard/extended/gallery/ */}
+
+        {/* For lightbox effect: https://fancyapps.com/ 
+        CDN in index.html file
+        Can also install as npm - see docs */}
+        <Row>
+          <Col md={12}>
+            <h1 className={classes.LeadTitle}>
+              <strong>Photos: Option 3</strong>
+            </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12}>
+            <div class='row'>
+              <div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>
+                <a
+                  href={hat}
+                  data-fancybox='gallery'
+                  data-caption='Optional caption'
+                >
+                  <img
+                    src={hat}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Boat on Calm Water'
+                  />
+                </a>
+
+                <a
+                  href={jisun}
+                  data-fancybox='gallery'
+                  data-caption='Optional caption'
+                >
+                  <img
+                    src={h1}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Wintry Mountain Landscape'
+                  />
+                </a>
+              </div>
+
+              <div class='col-lg-4 mb-4 mb-lg-0'>
+                <a
+                  href={love}
+                  data-fancybox='gallery'
+                  data-caption='Optional caption'
+                >
+                  <img
+                    src={h7}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Mountains in the Clouds'
+                  />
+                </a>
+
+                <a
+                  href={capetown}
+                  data-fancybox='gallery'
+                  data-caption='Cape Town, South Africa'
+                >
+                  <img
+                    src={capetown}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Cape Town, South Africa'
+                  />
+                </a>
+              </div>
+
+              <div class='col-lg-4 mb-4 mb-lg-0'>
+                <a
+                  href={rome}
+                  data-fancybox='gallery'
+                  data-caption='Optional caption'
+                >
+                  <img
+                    src={rome}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Waves at Sea'
+                  />
+                </a>
+
+                <a
+                  href={jisun2}
+                  data-fancybox='gallery'
+                  data-caption='Optional caption'
+                >
+                  <img
+                    src={h2}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+              </div>
+            </div>
           </Col>
         </Row>
       </div>
