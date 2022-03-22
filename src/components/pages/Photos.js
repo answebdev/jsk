@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 import classes from '../../styles/Photos.module.css';
 
 import jisun from '../../img/jisun.jpg';
@@ -19,6 +19,15 @@ import capetownthumb from '../../img/capetownthumb.png';
 import admiraltythumb from '../../img/admiraltythumb.png';
 import hatthumb from '../../img/hatthumb.png';
 import nurembergthumb from '../../img/nurembergthumb.png';
+
+import h1 from '../../img/h1.png';
+import h2 from '../../img/h2.png';
+import h3 from '../../img/h3.png';
+import h4 from '../../img/h4.png';
+import h5 from '../../img/h5.png';
+import h6 from '../../img/h6.png';
+import h7 from '../../img/h7.png';
+import h8 from '../../img/h8.png';
 
 import Gallery from 'react-grid-gallery';
 
@@ -102,11 +111,10 @@ const Photos = () => {
         <Row>
           <Col md={12}>
             <h1 className={classes.LeadTitle}>
-              <strong>Photos</strong>
+              <strong>Photos: Option 1</strong>
             </h1>
           </Col>
         </Row>
-
         <Row>
           <Col md={12}>
             <p className={classes.MainText}>
@@ -116,7 +124,55 @@ const Photos = () => {
             </p>
           </Col>
         </Row>
+        <Row>
+          <Col md={12}>
+            {/* Horizontal Scrollbar: Source:
+            https://stackoverflow.com/questions/30507510/how-to-display-image-horizontally-in-scroll-bar
+            Fiddle: http://jsfiddle.net/suraj_mewada/3zgmfkx0/ */}
 
+            <div className={classes.Wrapper}>
+              <div className={classes.Slider}>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.FirstSliderImage} src={h1} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h2} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h3} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h4} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h5} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h6} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.SliderImage} src={h7} fluid />
+                </div>
+                <div style={{ display: 'inline' }}>
+                  <Image className={classes.LastSliderImage} src={h8} fluid />
+                </div>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        {/* React Gallery Option */}
+        <Row>
+          <Col md={12}>
+            <h1 className={classes.LeadTitle}>
+              <strong>Photos: Option 2</strong>
+            </h1>
+          </Col>
+        </Row>
         <Row>
           <Col md={12}>
             <Gallery images={IMAGES} />
