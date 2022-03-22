@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Photos from './components/pages/Photos';
 import Videos from './components/pages/Videos';
 import Contact from './components/pages/Contact';
+import Success from './components/pages/Success';
 import Error from './components/pages/Error';
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/photos' element={<Photos />} />
         <Route exact path='/videos' element={<Videos />} />
         <Route exact path='/contact' element={<Contact />} />
+        <Route exact path='/success' element={<Success />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </div>
