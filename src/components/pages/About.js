@@ -42,47 +42,6 @@ const About = () => {
             <Image className={classes.MainImage} src={hk} fluid />
           </Col>
         </Row>
-
-        {/* <br />
-
-        <hr />
-
-        <br />
-
-        <Row>
-          <Col lg={5} md={12}>
-            <iframe
-              style={{ overflow: 'hidden' }}
-              class='embeddedObject shadow resizable'
-              name='embedded_content'
-              scrolling='no'
-              frameborder='0'
-              type='text/html'
-              src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/512b2ba6-7a3b-4a49-84a7-145cac2d5f00/embed'
-              width='512'
-              height='288'
-              webkitallowfullscreen
-              mozallowfullscreen
-              allowfullscreen
-              title='Standard Chartered Bank 2021 Digital Wealth'
-            ></iframe>
-          </Col>
-
-          <Col lg={1} md={12}></Col>
-
-          <Col lg={6} md={12}>
-            <h3>Standard Chartered Bank 2021 Digital Wealth</h3>
-            <p className={classes.MainText}>
-              Wafer sweet cookie wafer jelly beans marshmallow. Soufflé marzipan
-              liquorice cotton candy oat cake toffee marzipan apple pie jelly.
-              Tootsie roll cake powder candy gummies jujubes ice cream cupcake.
-              Fruitcake pie bonbon cake jelly beans cookie jelly-o liquorice
-              macaroon. Bear claw ice cream chocolate cake jelly caramels.
-              Marshmallow tart topping marshmallow jelly. Cotton candy macaroon
-              shortbread soufflé soufflé jelly gummi bears pudding.
-            </p>
-          </Col>
-        </Row> */}
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import { Helmet } from 'react-helmet';
-import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Row, Col, Image, Form, Button } from 'react-bootstrap';
 import classes from '../../styles/Contact.module.css';
+
+import h6 from '../../img/h6.png';
 
 const Contact = () => {
   return (
@@ -9,28 +11,44 @@ const Contact = () => {
         <title>Jisun Kim | Contact</title>
       </Helmet>
       <div className={classes.Container}>
-        <Row>
+        {/* <Row>
           <Col md={12}>
             <h1 className={classes.LeadTitle}>
               <strong>Contact</strong>
             </h1>
           </Col>
-        </Row>
+        </Row> */}
 
         <Row>
-          <Col md={3}></Col>
-          <Col md={6}>
-            <h3>
-              <strong>Contact Form</strong>
+          <Col lg={5} md={12}>
+            <Image
+              className={classes.MainImage}
+              src={h6}
+              alt='Jisun Kim'
+              fluid
+            />
+          </Col>
+
+          <Col lg={7} md={12}>
+            {/* <h3>
+              <strong>Contact</strong>
+            </h3> */}
+            <h3 className={classes.LeadTitle}>
+              <strong>Contact</strong>
             </h3>
-            <hr />
+            {/* <hr /> */}
             <div className='content'>
               <p>
-                Jisun Kim is available for shoots. Contact about bookings or
-                just to drop a friendly line.
+                Jisun Kim is available for shoots. To contact about bookings,
+                use the form or contact by email at&nbsp;
+                <a href='mailto:adolf.schmuck@gmail.com'>example@gmail.com</a>.
               </p>
               {/* <p>
-                Use the form or contact me by mail at{' '}
+                Jisun Kim is available for shoots. Contact about bookings or
+                just to drop a friendly line.
+              </p> */}
+              {/* <p>
+                Use the form or contact me by email at{' '}
                 <a href='mailto:adolf.schmuck@gmail.com'>example@gmail.com</a>
               </p> */}
               <Form
@@ -47,6 +65,7 @@ const Contact = () => {
                 <Form.Group>
                   <Form.Label>Name</Form.Label>
                   <Form.Control
+                    className={classes.FormInput}
                     type='name'
                     name='name'
                     placeholder='Name'
@@ -54,8 +73,11 @@ const Contact = () => {
                   />
                 </Form.Group>
                 <Form.Group controlId='formBasicEmail'>
-                  <Form.Label>Email Address</Form.Label>
+                  <Form.Label className={classes.Label}>
+                    Email Address
+                  </Form.Label>
                   <Form.Control
+                    className={classes.FormInput}
                     type='email'
                     name='email'
                     placeholder='email@example.com'
@@ -66,8 +88,9 @@ const Contact = () => {
                   </Form.Text>
                 </Form.Group>
                 <Form.Group controlId='exampleForm.ControlTextarea1'>
-                  <Form.Label>Message</Form.Label>
+                  <Form.Label className={classes.Label}>Message</Form.Label>
                   <Form.Control
+                    className={classes.FormInput}
                     as='textarea'
                     name='message'
                     rows='5'
@@ -77,15 +100,16 @@ const Contact = () => {
                 <div className='field'>
                   <div data-netlify-recaptcha='true'></div>
                 </div>
-                <Button
-                  className='actions'
-                  variant='success'
+                <button
+                  // className='actions'
+                  className={`${classes.Button} ${'actions'}`}
+                  // variant='success'
                   type='submit'
                   value='Send Message'
                   id='submit-btn'
                 >
                   Send Message
-                </Button>
+                </button>
               </Form>
               <br />
             </div>
