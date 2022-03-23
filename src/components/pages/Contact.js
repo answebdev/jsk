@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Row, Col, Image, Form, Button } from 'react-bootstrap';
+import { Row, Col, Image, Form } from 'react-bootstrap';
 import classes from '../../styles/Contact.module.css';
 
 import h6 from '../../img/h6.png';
