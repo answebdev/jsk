@@ -18,9 +18,9 @@ const Videos = () => {
       <div className={classes.Container}>
         <Row>
           <Col md={12}>
-            <h1 className={classes.LeadTitle}>
+            <h2 className={classes.LeadTitle}>
               <strong>Videos</strong>
-            </h1>
+            </h2>
           </Col>
         </Row>
         <Row>

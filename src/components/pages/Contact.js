@@ -11,13 +11,14 @@ const Contact = () => {
         <title>Jisun Kim | Contact</title>
       </Helmet>
       <div className={classes.Container}>
-        {/* <Row>
+        <Row>
           <Col md={12}>
-            <h1 className={classes.LeadTitle}>
+            <h2 className={classes.LeadTitle}>
               <strong>Contact</strong>
-            </h1>
+            </h2>
+            <p className={classes.SubTitle}>I'd love to hear from you</p>
           </Col>
-        </Row> */}
+        </Row>
 
         <Row>
           <Col lg={5} md={12}>
@@ -33,11 +34,11 @@ const Contact = () => {
             {/* <h3>
               <strong>Contact</strong>
             </h3> */}
-            <h3 className={classes.LeadTitle}>
+            {/* <h3 className={classes.LeadTitle}>
               <strong>Contact</strong>
-            </h3>
+            </h3> */}
             {/* <hr /> */}
-            <div className='content'>
+            <div className={classes.LeadText}>
               <p>
                 Jisun Kim is available for shoots. To contact about bookings,
                 use the form or contact by email at&nbsp;
@@ -83,9 +84,9 @@ const Contact = () => {
                     placeholder='email@example.com'
                     required
                   />
-                  <Form.Text className='text-muted'>
+                  {/* <Form.Text className='text-muted'>
                     Your email will never be shared with anyone else.
-                  </Form.Text>
+                  </Form.Text> */}
                 </Form.Group>
                 <Form.Group controlId='exampleForm.ControlTextarea1'>
                   <Form.Label className={classes.Label}>Message</Form.Label>

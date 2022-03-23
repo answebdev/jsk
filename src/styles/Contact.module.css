@@ -3,9 +3,23 @@
 }
 
 .LeadTitle {
+  margin-top: 1em;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-family: var(--primaryFontFamily);
+}
+
+.SubTitle {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #6c757d;
+  font-family: var(--primaryFontFamily);
+}
+
+.LeadText {
+  /* margin-top: 40px; */
+  line-height: 1.6;
 }
 
 .FormInput {
@@ -57,48 +71,60 @@
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
   /* body {
-            background-color: red;
-          } */
+    background-color: red;
+  } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
   /* body {
-          background-color: yellow;
-        } */
+    background-color: yellow;
+  } */
+
+  .LeadText {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
   /* body {
-          background-color: steelblue;
-        } */
+    background-color: steelblue;
+  } */
+
+  .Container {
+    padding: 6em;
+  }
 
   .LeadTitle {
     padding-top: 2em;
   }
 
-  .Container {
-    padding: 6em;
+  .LeadText {
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 551px) and (max-width: 640px) {
   /* body {
-          background-color: brown;
-        } */
+    background-color: brown;
+  } */
+
+  .Container {
+    padding: 6em;
+  }
 
   .LeadTitle {
     padding-top: 2em;
   }
 
-  .Container {
-    padding: 6em;
+  .LeadText {
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
   /* body {
-          background-color: salmon;
-        } */
+    background-color: salmon;
+  } */
 
   .Container {
     padding: 6em 4em 4em 4em;
@@ -106,13 +132,17 @@
 
   .LeadTitle {
     padding-top: 3em;
+  }
+
+  .LeadText {
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 431px) and (max-width: 470px) {
   /* body {
-          background-color: black;
-        } */
+    background-color: black;
+  } */
 
   .Container {
     padding: 6em 4em 4em 4em;
@@ -120,13 +150,17 @@
 
   .LeadTitle {
     padding-top: 3em;
+  }
+
+  .LeadText {
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 401px) and (max-width: 430px) {
   /* body {
-          background-color: burlywood;
-        } */
+    background-color: burlywood;
+  } */
 
   .Container {
     padding: 6em 4em 4em 4em;
@@ -134,13 +168,17 @@
 
   .LeadTitle {
     padding-top: 3em;
+  }
+
+  .LeadText {
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
   /* body {
-          background-color: pink;
-        } */
+    background-color: pink;
+  } */
 
   .Container {
     padding: 6em 4em 4em 4em;
@@ -148,5 +186,9 @@
 
   .LeadTitle {
     padding-top: 3em;
+  }
+
+  .LeadText {
+    margin-top: 40px;
   }
 }

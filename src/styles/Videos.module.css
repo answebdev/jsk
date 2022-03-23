@@ -3,6 +3,7 @@
 }
 
 .LeadTitle {
+  margin-top: 1em;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-family: var(--primaryFontFamily);
