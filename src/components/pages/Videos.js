@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import { Row, Col } from 'react-bootstrap';
 import classes from '../../styles/Videos.module.css';
 
-import jisun from '../../img/jisun.jpg';
+// import jisun from '../../img/jisun.jpg';
 
 // Video Players:
 // https://video-react.js.org/
