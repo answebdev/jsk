@@ -167,7 +167,7 @@ const Photos = () => {
         <br />
         <br />
         <br />
-        {/* React Gallery Option */}
+        {/* React Gallery Option - uninstall if decide to not use */}
         <Row>
           <Col md={12}>
             <h1 className={classes.LeadTitle}>
@@ -186,6 +186,8 @@ const Photos = () => {
         <br />
         <br />
         {/* Option 3 Source: https://mdbootstrap.com/docs/standard/extended/gallery/ */}
+
+        {/* Remove captions - maybe not needed. */}
 
         {/* For lightbox effect: https://fancyapps.com/ 
         CDN in index.html file
