@@ -51,13 +51,13 @@ const Videos = () => {
                     scrolling='no'
                     frameborder='0'
                     type='text/html'
-                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/512b2ba6-7a3b-4a49-84a7-145cac2d5f00/embed'
+                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/01abcdef-3acf-4a81-9d2b-5213fe8f7679/embed'
                     width='800'
                     height='450'
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
-                    title='Standard Chartered Bank 2021 Digital Wealth'
+                    title='Osaka'
                   ></iframe>
                 </div>
 
@@ -72,13 +72,13 @@ const Videos = () => {
                     scrolling='no'
                     frameborder='0'
                     type='text/html'
-                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/512b2ba6-7a3b-4a49-84a7-145cac2d5f00/embed'
+                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/6fcd3393-5594-4ae9-811f-5850be0cd3ab/embed'
                     width='800'
                     height='450'
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
-                    title='Standard Chartered Bank 2021 Digital Wealth'
+                    title='Top Gear Korea'
                   ></iframe>
                 </div>
 
@@ -114,13 +114,13 @@ const Videos = () => {
                     scrolling='no'
                     frameborder='0'
                     type='text/html'
-                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/512b2ba6-7a3b-4a49-84a7-145cac2d5f00/embed'
+                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/68eefa8a-dfae-4227-8852-3629fcf86901/embed'
                     width='800'
                     height='450'
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
-                    title='Standard Chartered Bank 2021 Digital Wealth'
+                    title='NS Home Shopping'
                   ></iframe>
                 </div>
               </div>
