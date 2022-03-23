@@ -22,19 +22,19 @@
   overflow: auto;
 }
 
-.SliderImage {
+.SliderVideo {
   width: 30%;
   height: auto;
   margin: 4px;
 }
 
-.FirstSliderImage {
+.FirstSliderVideo {
   width: 30%;
   height: auto;
   margin-right: 4px;
 }
 
-.LastSliderImage {
+.LastSliderVideo {
   width: 30%;
   height: auto;
   margin-left: 4px;
@@ -46,19 +46,19 @@
     background-color: red;
   } */
 
-  .SliderImage {
+  .SliderVideo {
     width: 35%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 35%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 35%;
     height: auto;
     margin-left: 4px;
@@ -70,19 +70,19 @@
     background-color: yellow;
   } */
 
-  .SliderImage {
+  .SliderVideo {
     width: 45%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 45%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 45%;
     height: auto;
     margin-left: 4px;
@@ -102,19 +102,19 @@
     padding: 6em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 50%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 50%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 50%;
     height: auto;
     margin-left: 4px;
@@ -134,19 +134,19 @@
     padding: 6em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 65%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 65%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 65%;
     height: auto;
     margin-left: 4px;
@@ -166,19 +166,19 @@
     padding-top: 3em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 65%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 65%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 65%;
     height: auto;
     margin-left: 4px;
@@ -198,19 +198,19 @@
     padding-top: 3em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 75%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 75%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 75%;
     height: auto;
     margin-left: 4px;
@@ -230,19 +230,19 @@
     padding-top: 3em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 100%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 100%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 100%;
     height: auto;
     margin-left: 4px;
@@ -262,19 +262,19 @@
     padding-top: 3em;
   }
 
-  .SliderImage {
+  .SliderVideo {
     width: 100%;
     height: auto;
     margin: 4px;
   }
 
-  .FirstSliderImage {
+  .FirstSliderVideo {
     width: 100%;
     height: auto;
     margin-right: 4px;
   }
 
-  .LastSliderImage {
+  .LastSliderVideo {
     width: 100%;
     height: auto;
     margin-left: 4px;

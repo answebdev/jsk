@@ -41,7 +41,7 @@ const Videos = () => {
             <div className={classes.Wrapper}>
               <div className={classes.Slider}>
                 <div
-                  className={classes.FirstSliderImage}
+                  className={classes.FirstSliderVideo}
                   style={{ display: 'inline' }}
                 >
                   <iframe
@@ -62,7 +62,7 @@ const Videos = () => {
                 </div>
 
                 <div
-                  className={classes.SliderImage}
+                  className={classes.SliderVideo}
                   style={{ display: 'inline' }}
                 >
                   <iframe
@@ -83,7 +83,7 @@ const Videos = () => {
                 </div>
 
                 <div
-                  className={classes.SliderImage}
+                  className={classes.SliderVideo}
                   style={{ display: 'inline' }}
                 >
                   <iframe
@@ -104,7 +104,7 @@ const Videos = () => {
                 </div>
 
                 <div
-                  className={classes.LastImage}
+                  className={classes.LastSliderVideo}
                   style={{ display: 'inline' }}
                 >
                   <iframe
