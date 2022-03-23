@@ -1,5 +1,6 @@
 .Container {
   padding: 6em;
+  color: var(--primaryDark);
 }
 
 .LeadTitle {
