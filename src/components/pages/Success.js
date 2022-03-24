@@ -1,85 +1,39 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import classes from '../../styles/Success.module.css';
 
 const Success = () => {
   return (
-    <div>
+    <div className={classes.Success}>
       <Helmet>
         <title>Jisun Kim | Success</title>
-        <link
-          rel='stylesheet'
-          href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css'
-        />
         <style type='text/css'>{`
-        body {
-          font-family: var(--primaryFontFamily);
-          background-color: #ffffff;
-          color: #ff6347;
-        }
-
-        .container {
-          max-width: 100%;
-          height: 100%;
-          margin: auto;
-          overflow: hidden;
-          padding: 0;
-        }
-        
-        .navbar,
-        .footer {
+        .navbar {
           display: none;
         }
 
-        h3,
-        p {
-          color: #ff6347;
-        }
-
-        h3 {
-          letter-spacing: 1.5px;
-          font-weight: 700;
-        }
-
-        p {
-          font-size: 20px;
-        }
-
-        #success-msg {
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-
-        #success-btn {
-          font-family: 'Quicksand', sans-serif;
-          font-weight: 700;
-          background: #ffffff;
-          border-color: #ffffff;
-          color: #ff6347;
-          margin-right: 5px;
-          margin-bottom: 40px;
+        body {
+          letter-spacing: 1px;
+          height: 100%;
         }
     `}</style>
       </Helmet>
-      <Container fluid>
-        <Row>
-          <Col md={12}>
-            <div id='success-msg'>
-              <h3 className='text-center'>Thank you!</h3>
-              <br />
+      <header className={classes.AppHeader}>
+        <i className={`${classes.Icon} ${'material-icons'}`} id='thumb'>
+          thumb_up
+        </i>
+        <br />
+        <h3 className={classes.HeaderText}>THANK YOU!</h3>
 
-              <p className='text-center'>Your message has been sent.</p>
-              <br />
-              <div id='back-div'>
-                <a class='btn btn-success btn-sm' id='back-btn' href='/contact'>
-                  <i class='fas fa-pencil-alt'></i> Back to Form
-                </a>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+        <p className={classes.Description}>Your message has been sent.</p>
+
+        <div className={classes.Buttons}>
+          <Link className={classes.Button} to='/contact'>
+            BACK TO FORM
+          </Link>
+        </div>
+      </header>
     </div>
   );
 };

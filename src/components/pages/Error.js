@@ -1,17 +1,40 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import logo from '../../img/logo.png';
+import classes from '../../styles/Error.module.css';
 
 const Error = () => {
   return (
-    <div>
+    <div className={classes.Error}>
       <Helmet>
         <title>Jisun Kim | Error</title>
-      </Helmet>
-      <br />
-      <br />
-      <br />
-      <br />
+        <style type='text/css'>{`
+        .navbar {
+          display: none;
+        }
 
-      <h3>Error: Page Not Found</h3>
+        body {
+          letter-spacing: 1px;
+          height: 100%;
+        }
+    `}</style>
+      </Helmet>
+      <header className={classes.AppHeader}>
+        <img src={logo} className={classes.AppLogo} alt='logo' />
+        <br />
+        <p>404 Page Not Found</p>
+        <p>
+          Sorry, the page you are looking for
+          <br />
+          does not exist.
+        </p>
+        <div className={classes.Buttons}>
+          <Link className={classes.Safety} to='/'>
+            Home
+          </Link>
+        </div>
+      </header>
     </div>
   );
 };
