@@ -24,7 +24,7 @@ const Error = () => {
         <img src={logo} className={classes.AppLogo} alt='logo' />
         <br />
         <p>404 Page Not Found</p>
-        <p>
+        <p className={classes.Message}>
           Sorry, the page you are looking for
           <br />
           does not exist.

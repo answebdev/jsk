@@ -24,6 +24,10 @@
   color: #61dafb;
 }
 
+.Message {
+  text-align: center;
+}
+
 .Safety {
   display: flex;
   justify-content: center;
