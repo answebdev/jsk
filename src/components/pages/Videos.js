@@ -19,10 +19,11 @@ const Videos = () => {
         <Row>
           <Col md={12}>
             <h2 className={classes.LeadTitle}>
-              <strong>Videos</strong>
+              <strong>Videos: Option 1</strong>
             </h2>
           </Col>
         </Row>
+
         <Row>
           <Col md={12}>
             <p className={classes.MainText}>
@@ -32,6 +33,7 @@ const Videos = () => {
             </p>
           </Col>
         </Row>
+
         <Row>
           <Col md={12}>
             {/* Horizontal Scrollbar: Source:
@@ -51,12 +53,14 @@ const Videos = () => {
                     scrolling='no'
                     frameborder='0'
                     type='text/html'
-                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/01abcdef-3acf-4a81-9d2b-5213fe8f7679/embed'
+                    // src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/01abcdef-3acf-4a81-9d2b-5213fe8f7679/embed'
+                    src='https://player.vimeo.com/video/691665885?h=6caf8c3a7c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
                     width='800'
                     height='450'
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
+                    allow='autoplay; fullscreen; picture-in-picture'
                     title='Osaka'
                   ></iframe>
                 </div>
@@ -114,18 +118,112 @@ const Videos = () => {
                     scrolling='no'
                     frameborder='0'
                     type='text/html'
-                    src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/68eefa8a-dfae-4227-8852-3629fcf86901/embed'
+                    // src='https://www.screencast.com/users/britvaica/folders/Camtasia%20Studio/media/68eefa8a-dfae-4227-8852-3629fcf86901/embed'
+                    src='https://player.vimeo.com/video/691671960?h=bbad3b7566&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
                     width='800'
                     height='450'
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
+                    allow='autoplay; fullscreen; picture-in-picture'
                     title='NS Home Shopping'
                   ></iframe>
                 </div>
               </div>
             </div>
           </Col>
+        </Row>
+
+        <Row>
+          <Col md={12}>
+            <h2 className={classes.LeadTitle}>
+              <strong>Videos: Option 2</strong>
+            </h2>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={6}>
+            <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
+              <iframe
+                src='https://player.vimeo.com/video/691671906?h=f209bb7f99&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                frameborder='0'
+                allow='autoplay; fullscreen; picture-in-picture'
+                allowfullscreen
+                style={{
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '100%',
+                }}
+                title='Standard Chartered Bank 2021 Digital Wealth'
+              ></iframe>
+            </div>
+            <script src='https://player.vimeo.com/api/player.js'></script>
+          </Col>
+
+          <Col md={6}>
+            <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
+              <iframe
+                src='https://player.vimeo.com/video/691665885?h=6caf8c3a7c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                frameborder='0'
+                allow='autoplay; fullscreen; picture-in-picture'
+                allowfullscreen
+                style={{
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '100%',
+                }}
+                title='Osaka'
+              ></iframe>
+            </div>
+            <script src='https://player.vimeo.com/api/player.js'></script>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={6}>
+            <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
+              <iframe
+                src='https://player.vimeo.com/video/691671960?h=bbad3b7566&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                frameborder='0'
+                allow='autoplay; fullscreen; picture-in-picture'
+                allowfullscreen
+                style={{
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '100%',
+                }}
+                title='NS Home Shopping'
+              ></iframe>
+            </div>
+            <script src='https://player.vimeo.com/api/player.js'></script>
+          </Col>
+          {/* 
+          <Col md={6}>
+            <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
+              <iframe
+                src='https://player.vimeo.com/video/691668924?h=4bc32cec0a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'
+                frameborder='0'
+                allow='autoplay; fullscreen; picture-in-picture'
+                allowfullscreen
+                style={{
+                  position: 'absolute',
+                  top: '0',
+                  left: '0',
+                  width: '100%',
+                  height: '100%',
+                }}
+                title='Top Gear Korea'
+              ></iframe>
+            </div>
+            <script src='https://player.vimeo.com/api/player.js'></script>
+          </Col> */}
         </Row>
       </div>
     </div>
