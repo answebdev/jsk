@@ -11,8 +11,14 @@ const Home = () => {
       <Helmet>
         <title>Jisun Kim</title>
         <style type='text/css'>{`        
-        .navbar {
+        .navbar,
+        .footer {
           display: none;
+        }
+
+        body {
+          letter-spacing: 1px;
+          height: 100%;
         }
     `}</style>
       </Helmet>

@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 // import Navigation from './components/layout/Navigation';
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Photos from './components/pages/Photos';
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/success' element={<Success />} />
         <Route path='*' element={<Error />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

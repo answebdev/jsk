@@ -42,6 +42,8 @@ import Gallery from 'react-grid-gallery';
 
 // THIS ONE IS USED HERE: https://benhowell.github.io/react-grid-gallery/
 
+// For fade in effect on scroll (option 3), watch here, but use opacity effect instead of bounce in: https://www.youtube.com/watch?v=hkhskSrT5SY
+
 const IMAGES = [
   {
     src: jisun,

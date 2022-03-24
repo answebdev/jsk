@@ -10,7 +10,8 @@ const Error = () => {
       <Helmet>
         <title>Jisun Kim | Error</title>
         <style type='text/css'>{`
-        .navbar {
+        .navbar,
+        .footer {
           display: none;
         }
 
