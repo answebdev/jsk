@@ -1,16 +1,16 @@
 .Navbar {
   /* Fix navbar to the top: */
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
   /* End fixed navbar styles */
-  /* border-bottom: 1px solid #dddddd; */
+  border-bottom: 1px solid #dddddd;
   text-decoration: none;
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: #f4f4f4;
   color: #141414;
   font-weight: 300;
   padding: 0 20px;
@@ -92,20 +92,20 @@ ul {
 
 @media screen and (min-width: 981px) and (max-width: 1200px) {
   /* body {
-        background-color: red;
-      } */
+          background-color: red;
+        } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
   /* body {
-        background-color: yellow;
-      } */
+          background-color: yellow;
+        } */
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
   /* body {
-        background-color: steelblue;
-      } */
+          background-color: steelblue;
+        } */
 
   .Navbar {
     display: block;
@@ -130,8 +130,8 @@ ul {
 
 @media screen and (min-width: 551px) and (max-width: 640px) {
   /* body {
-    background-color: brown;
-  } */
+      background-color: brown;
+    } */
 
   .Navbar {
     display: block;
@@ -156,8 +156,8 @@ ul {
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
   /* body {
-    background-color: salmon;
-  } */
+      background-color: salmon;
+    } */
 
   .Navbar {
     display: block;
@@ -188,8 +188,8 @@ ul {
 
 @media screen and (min-width: 431px) and (max-width: 470px) {
   /* body {
-    background-color: black;
-  } */
+      background-color: black;
+    } */
 
   .Navbar {
     display: block;
@@ -220,8 +220,8 @@ ul {
 
 @media screen and (min-width: 401px) and (max-width: 430px) {
   /* body {
-    background-color: burlywood;
-  } */
+      background-color: burlywood;
+    } */
 
   .Navbar {
     display: block;
@@ -252,8 +252,8 @@ ul {
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
   /* body {
-    background-color: pink;
-  } */
+      background-color: pink;
+    } */
 
   .Navbar {
     display: block;
