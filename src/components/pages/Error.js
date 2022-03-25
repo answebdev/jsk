@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { motion } from 'framer-motion';
 import logo from '../../img/logo.png';
 import classes from '../../styles/Error.module.css';
 
@@ -16,26 +17,48 @@ const Error = () => {
         }
 
         body {
+          background-color: var(--primaryDark);
+          color: #ffffff;
           letter-spacing: 1px;
           height: 100%;
         }
     `}</style>
       </Helmet>
-      <header className={classes.AppHeader}>
-        <img src={logo} className={classes.AppLogo} alt='logo' />
-        <br />
-        <p>404 Page Not Found</p>
-        <p className={classes.Message}>
-          Sorry, the page you are looking for
-          <br />
-          does not exist.
-        </p>
-        <div className={classes.Buttons}>
-          <Link className={classes.Safety} to='/'>
-            Home
-          </Link>
-        </div>
-      </header>
+
+      <div className={classes.CenteredError}>
+        <motion.div
+          initial={{
+            opacity: 0,
+            x: -100,
+            y: 0,
+          }}
+          animate={{
+            opacity: 1,
+            x: 0,
+            y: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
+          <h1 className={`${classes.TextCenter} ${classes.Msg}`}>
+            404 Page Not Found
+          </h1>
+          <h1 className={classes.TextCenter}>
+            <div>
+              <img className={classes.Logo} src={logo} alt='Logo' />
+            </div>
+          </h1>
+
+          <p className={classes.TextCenter}>
+            <div className={classes.BtnDiv}>
+              <Link className={classes.Safety} to='/'>
+                Home
+              </Link>
+            </div>
+          </p>
+        </motion.div>
+      </div>
     </div>
   );
 };
