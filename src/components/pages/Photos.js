@@ -197,7 +197,7 @@ const Photos = () => {
         <Row>
           <Col md={12}>
             <h1 className={classes.LeadTitle}>
-              <strong>Photos: Option 3</strong>
+              <strong>Photos: Option 3 (Fancybox)</strong>
             </h1>
           </Col>
         </Row>
@@ -208,7 +208,7 @@ const Photos = () => {
                 <a
                   href={hat}
                   data-fancybox='gallery'
-                  data-caption='Optional caption'
+                  // data-caption='Optional caption'
                 >
                   <img
                     src={hat}
@@ -220,7 +220,7 @@ const Photos = () => {
                 <a
                   href={jisun}
                   data-fancybox='gallery'
-                  data-caption='Optional caption'
+                  // data-caption='Optional caption'
                 >
                   <img
                     src={h1}
@@ -234,7 +234,7 @@ const Photos = () => {
                 <a
                   href={love}
                   data-fancybox='gallery'
-                  data-caption='Optional caption'
+                  // data-caption='Optional caption'
                 >
                   <img
                     src={h7}
@@ -246,7 +246,7 @@ const Photos = () => {
                 <a
                   href={capetown}
                   data-fancybox='gallery'
-                  data-caption='Cape Town, South Africa'
+                  // data-caption='Cape Town, South Africa'
                 >
                   <img
                     src={capetown}
@@ -260,7 +260,7 @@ const Photos = () => {
                 <a
                   href={rome}
                   data-fancybox='gallery'
-                  data-caption='Optional caption'
+                  // data-caption='Optional caption'
                 >
                   <img
                     src={rome}
@@ -272,8 +272,75 @@ const Photos = () => {
                 <a
                   href={jisun2}
                   data-fancybox='gallery'
-                  data-caption='Optional caption'
+                  // data-caption='Optional caption'
                 >
+                  <img
+                    src={h2}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+              </div>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col md={12}>
+            <h1 className={classes.LeadTitle}>
+              <strong>Photos: Option 4 (Lightbox 2)</strong>
+            </h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12}>
+            <div class='row'>
+              <div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>
+                <a href={hat} data-lightbox='image-1'>
+                  <img
+                    src={hat}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+
+                <a href={h1} data-lightbox='image-1'>
+                  <img
+                    src={h1}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+              </div>
+
+              <div class='col-lg-4 mb-4 mb-lg-0'>
+                <a href={love} data-lightbox='image-1'>
+                  <img
+                    src={love}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+
+                <a href={capetown} data-lightbox='image-1'>
+                  <img
+                    src={capetown}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+              </div>
+
+              <div class='col-lg-4 mb-4 mb-lg-0'>
+                <a href={rome} data-lightbox='image-1'>
+                  <img
+                    src={rome}
+                    class='w-100 shadow-1-strong rounded mb-4'
+                    alt='Yosemite National Park'
+                  />
+                </a>
+
+                <a href={h2} data-lightbox='image-1'>
                   <img
                     src={h2}
                     class='w-100 shadow-1-strong rounded mb-4'
