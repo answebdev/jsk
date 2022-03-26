@@ -7,7 +7,7 @@ const Footer = () => (
         &copy; Copyright 2022 Jisun Kim
       </span> */}
       <span className={classes.FooterText}>
-        &copy; 2022 Jisun Kim | Website by{' '}
+        &copy; {new Date().getFullYear()} Jisun Kim | Website by{' '}
         <a
           style={{ textDecoration: 'none' }}
           className={classes.Link}
@@ -18,6 +18,9 @@ const Footer = () => (
           Adolf Schmuck
         </a>
       </span>
+      {/* <span className={classes.FooterText}>
+        &copy; 2022 Jisun Kim &#x2022; Website by adolfschmuck.com
+      </span> */}
     </div>
   </div>
 );

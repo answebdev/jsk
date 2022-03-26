@@ -15,7 +15,7 @@
 .FooterText {
   font-family: var(--primaryFontFamily);
   color: var(--primaryDark);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 5px;
   /* font-size: 12.5px; */
   font-size: 10.5px;
