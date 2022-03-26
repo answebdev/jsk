@@ -1,6 +1,6 @@
 /* TEAM */
 Designer and developer: Adolf Schmuck
-Contact: https://adolfschmuck.com/
+Website: https://adolfschmuck.com/
 From: San Diego, CA, USA
 
 /* SITE */
