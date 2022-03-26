@@ -17,12 +17,15 @@ const Error = () => {
         }
 
         body {
+          background-color: var(--primaryDark);
+          color: #ffffff;
           letter-spacing: 1px;
           height: 100%;
         }
     `}</style>
       </Helmet>
-      <header className={classes.AppHeader}>
+
+      <div className={classes.CenteredError}>
         <motion.div
           initial={{
             opacity: 0,
@@ -38,23 +41,24 @@ const Error = () => {
             duration: 1,
           }}
         >
-          <div className={classes.MainDiv}>
-            <img src={logo} className={classes.AppLogo} alt='Logo' />
-            <br />
-            <p className={classes.PageNotFound}>404 Page Not Found</p>
-            <p className={classes.Message}>
-              Sorry, the page you are looking for
-              <br />
-              does not exist.
-            </p>
+          <h2 className={`${classes.TextCenter} ${classes.Msg}`}>
+            404 Page Not Found
+          </h2>
+          <h1 className={classes.TextCenter}>
             <div>
+              <img className={classes.Logo} src={logo} alt='Logo' />
+            </div>
+          </h1>
+
+          <p className={classes.TextCenter}>
+            <div className={classes.BtnDiv}>
               <Link className={classes.Safety} to='/'>
                 Home
               </Link>
             </div>
-          </div>
+          </p>
         </motion.div>
-      </header>
+      </div>
     </div>
   );
 };
