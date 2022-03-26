@@ -41,9 +41,9 @@ const Error = () => {
             duration: 1,
           }}
         >
-          <h1 className={`${classes.TextCenter} ${classes.Msg}`}>
+          <h2 className={`${classes.TextCenter} ${classes.Msg}`}>
             404 Page Not Found
-          </h1>
+          </h2>
           <h1 className={classes.TextCenter}>
             <div>
               <img className={classes.Logo} src={logo} alt='Logo' />
