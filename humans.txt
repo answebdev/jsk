@@ -1,5 +1,5 @@
 /* TEAM */
-DEsigner and Developer: Adolf Schmuck
+Designer and Developer: Adolf Schmuck
 Contact: https://adolfschmuck.com/
 From: San Diego, CA, USA
 
