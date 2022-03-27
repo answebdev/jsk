@@ -20,9 +20,11 @@ const Success = () => {
     `}</style>
       </Helmet>
       <header className={classes.AppHeader}>
-        <i className={`${classes.Icon} ${'material-icons'}`} id='thumb'>
-          thumb_up
-        </i>
+        <span class='animate__animated animate__swing'>
+          <i className={`${classes.Icon} ${'material-icons'}`} id='thumb'>
+            thumb_up
+          </i>
+        </span>
         <br />
         <h3 className={classes.HeaderText}>THANK YOU!</h3>
 
